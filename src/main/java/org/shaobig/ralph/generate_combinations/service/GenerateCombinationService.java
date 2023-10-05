@@ -13,10 +13,10 @@ import java.util.List;
 @Getter(value = AccessLevel.PACKAGE)
 public class GenerateCombinationService {
 
-    private final AnalyticCombinationSupplier analyticCombinationSupplier;
+    private final StreamReduceCombinationSupplier streamReduceCombinationSupplier;
 
     public List<String> generateCombinations(List<Letter> letters) {
-        return getAnalyticCombinationSupplier().supplyCombinations(letters);
+        return getStreamReduceCombinationSupplier().supplyCombinations(letters);
     }
 
 }

@@ -13,7 +13,7 @@ import java.util.List;
 @Component
 @RequiredArgsConstructor
 @Getter(value = AccessLevel.PACKAGE)
-public class AnalyticCombinationSupplier implements CombinationSupplier {
+public class StreamReduceCombinationSupplier implements CombinationSupplier {
 
     private final CombinationComposer<Letter> combinationComposer;
 
