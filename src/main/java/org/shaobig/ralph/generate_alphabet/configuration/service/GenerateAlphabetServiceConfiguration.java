@@ -1,6 +1,6 @@
 package org.shaobig.ralph.generate_alphabet.configuration.service;
 
-import org.shaobig.ralph.generate_alphabet.LetterType;
+import org.shaobig.ralph.LetterType;
 import org.shaobig.ralph.generate_alphabet.repository.AlphabetProvider;
 import org.shaobig.ralph.generate_alphabet.repository.ConsonantAlphabetProvider;
 import org.shaobig.ralph.generate_alphabet.repository.VowelAlphabetProvider;
