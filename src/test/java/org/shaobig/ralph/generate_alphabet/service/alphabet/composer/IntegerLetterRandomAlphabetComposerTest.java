@@ -5,8 +5,8 @@ import lombok.Getter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import org.shaobig.ralph.generate_alphabet.Letter;
-import org.shaobig.ralph.generate_alphabet.LetterType;
+import org.shaobig.ralph.Letter;
+import org.shaobig.ralph.LetterType;
 
 import java.util.List;
 
